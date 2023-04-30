@@ -6,28 +6,43 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="output.css">
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body class="bg-very-dark-blue flex flex-col justify-center items-center min-h-screen">
+  <main class="w-[375px]">
+    <div class="bg-soft-violet opacity-250 z-10 w-full">
+      <img src="images/image-header-mobile.jpg" class="z-1" alt="">
+    </div>
+    <section class="bg-dark-desaturated-blue flex flex-col text-center p-6">
+      <h1 class="text-white text-4xl/[38px] font-bold mt-2 mb-4">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
+      
+      <p class="text-slightly-white-main-paragraph mt-2 w-11/12 m-auto">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      
+      <div class="mt-6">
+        <h2 class="text-white font-semibold text-2xl mb-1">10k+</h2>
+        <p class="text-slightly-white-stat-headings uppercase text-sm tracking-widest">Companies</p>
+      </div>
 
-  Get insights that help your business grow.
+      <div class="mt-6">
+        <h2 class="text-white font-semibold text-2xl mb-1"">314</h2>
+        <p class="text-slightly-white-stat-headings uppercase text-sm tracking-widest">Templates</p>
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <div class="mt-6">
+        <h2 class="text-white font-semibold text-2xl mb-1"">12M+</h2>
+        <p class="text-slightly-white-stat-headings uppercase text-sm tracking-widest">Queries</p>
+      </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+    </section>
+  </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 </body>
 </html>
